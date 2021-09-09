@@ -1,0 +1,40 @@
+body {
+	background-color: #1c1b22 /* dark theme */
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 400%;
+	font-family: Arial;
+}
+
+table.hw-table {
+	margin: auto; /* centers the table */
+}
+
+td.hw-col {
+	padding: 5%;
+	min-width: 25%;
+	text-align: center;
+}
+
+a.hw-button {
+    background-color: orange; /* color of button */
+	display: inline-block;
+	font-size: 275%;
+	padding: 10%;
+	text-decoration: none; /* removes underline from link */
+	color: black; /* color of text */
+	font-family: Arial;
+	border-radius: 20px; /* round edges */
+	transition: 0.3s;
+}
+
+a.hw-button:hover {
+	background-color: #ffc600;
+}
+
+a.hw-button-last {
+	padding: 5%;
+}
