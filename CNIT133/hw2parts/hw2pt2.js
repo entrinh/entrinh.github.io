@@ -6,7 +6,7 @@ function calculate() {
 	
 	if(isNaN(int1) || isNaN(int2) || isNaN(int3)) {
 		document.getElementById("fadeResultsBtn").style.display = "none";
-		document.getElementById("results").innerHTML = "<p>Please enter a number for each of the fields!</p>";
+		document.getElementById("results").innerHTML = "<p>Please enter a number in each of the fields!</p>";
 	} else {
 		document.getElementById("fadeResultsBtn").style.display = "inline-block";
 		
@@ -16,7 +16,7 @@ function calculate() {
 		min = Math.min(int1, int2, int3);
 		max = Math.max(int1, int2, int3);
 		
-		display = "<p>Results:</p>";
+		display = "<p><strong>Results:</strong></p>";
 		display += "<p>Sum: " + sum + "<br>";
 		display += "Average: " + average + "<br>";
 		display += "Product: " + product + "<br>";
