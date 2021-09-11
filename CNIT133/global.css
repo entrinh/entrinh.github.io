@@ -1,0 +1,32 @@
+body {
+	background-color: #1c1b22; /* dark theme */
+	color: white;
+	font-family: Arial;
+}
+
+h1 {
+	text-align: center;
+	font-size: 400%;
+}
+
+a {
+	color: orange;
+}
+
+a:hover {
+	color: #ffc600
+}
+
+dl{
+	margin-left: 35%;
+	font-size: 160%;
+}
+
+main > h1 {
+	text-align: center;
+}
+
+h2 {
+	margin-left: 26%;
+	font-size: 200%;
+}

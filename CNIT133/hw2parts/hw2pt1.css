@@ -13,3 +13,11 @@
 	color: green;
 	font-style: italic;
 }
+
+main {
+	text-align: center;
+}
+
+main > strong {
+	font-size: 300%;
+}

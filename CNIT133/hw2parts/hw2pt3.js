@@ -7,7 +7,7 @@ function count() {
 	int5 = parseInt(document.forms["num-form"].elements["int5"].value);
 	
 	if(isNaN(int1) || isNaN(int2) || isNaN(int3) || isNaN(int4) || isNaN(int5)) {
-		document.getElementById("counts").innerHTML = "<p>Please enter a number in each of the fields!</p>";
+		document.getElementById("results").innerHTML = "<p>Please enter a number in each of the fields!</p>";
 	} else {
 		if(int1 < 0) {
 			negatives++;
@@ -49,6 +49,6 @@ function count() {
 		display += "<p>Positives: " + positives + "<br>";
 		display += "Negatives: " + negatives + "<br>";
 		display += "Zeros: " + zeros + "<br>";
-		document.getElementById("counts").innerHTML = display;
+		document.getElementById("results").innerHTML = display;
 	}
 }

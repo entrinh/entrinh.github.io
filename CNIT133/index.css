@@ -1,14 +1,3 @@
-body {
-	background-color: #1c1b22 /* dark theme */
-}
-
-h1 {
-	color: white;
-	text-align: center;
-	font-size: 400%;
-	font-family: Arial;
-}
-
 table.hw-table {
 	margin: auto; /* centers the table */
 }

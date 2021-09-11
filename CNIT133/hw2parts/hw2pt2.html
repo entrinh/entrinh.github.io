@@ -7,13 +7,15 @@
 		<meta name="description" content="CNIT 133 Homework 2 Part 2: Integer Operations">
 		<meta name="author" content="Eric Trinh">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../global.css">
+		<link rel="stylesheet" href="hw2pt2+3.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 		<script src="hw2pt2.js" async></script>
 	</head>
 	<body>
 		<main>
 			<h1>Part 2: Integer Operations</h1>
-			<p><strong>Enter 3 integer numbers:</strong></p>
+			<h2>Enter 3 integer numbers:</h2>
 			<form name="num-form">
 				<table>
 					<tr>
@@ -29,15 +31,15 @@
 						<td><input name="int3" type="number"></td>
 					</tr>
 				</table>
-				<input type="button" value="Calculate" onclick="calculate();">
-				<input type="reset">
-				<input type="button" id="fadeResultsBtn" value="Fade Results" style="display: none">
+				<input type="button" value="Calculate" onclick="calculate();" class="calcButton button">
+				<input type="reset" class="button">
+				<input type="button" id="fadeResultsBtn" value="Fade Results" class="button fadeButton">
 			</form>
 			<div id="results"></div>
 		</main>
 		<br>
 		<footer>
-			<p><strong>Site navigation links:</strong></p>
+			<h2>Site navigation links:</h2>
 			<dl>
 				<dt><a href="../hw2.html">Home</a></dt>
 				<dd>Return to homework 2 home page</dd>
