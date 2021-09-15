@@ -1,0 +1,31 @@
+body {
+	background-image: url('gsw-logo.png');
+	background-position: 50% -2%;
+	background-repeat: no-repeat;
+	background-color: rgba(244,189,50, 0.2)
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: right;
+}
+
+h3 {
+	font-style: italic;
+}
+
+span {
+	font-size: 2em;
+	rgba(44,66,138,92);
+}
+
+footer + p {
+	background-image: url('wallpaper.jpeg');
+}
+
+footer {
+	border: blue solid 3px;
+}
