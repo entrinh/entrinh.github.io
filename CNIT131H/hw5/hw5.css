@@ -17,15 +17,15 @@ h3 {
 	font-style: italic;
 }
 
-span {
-	font-size: 2em;
-	rgba(44,66,138,92);
+footer {
+	border: blue solid 3px;
 }
 
-footer + p {
+h3 + p {
 	background-image: url('wallpaper.jpeg');
 }
 
-footer {
-	border: blue solid 3px;
+span {
+	font-size: 2em;
+	rgba(44,66,138,92);
 }
