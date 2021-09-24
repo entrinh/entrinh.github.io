@@ -1,5 +1,6 @@
 table.hw-table {
 	margin: auto; /* centers the table */
+	font-size: 100%;
 }
 
 td.hw-col {
