@@ -30,3 +30,22 @@ h2 {
 	margin-left: 26%;
 	font-size: 200%;
 }
+
+table {
+	margin: auto;
+	font-size: 160%;
+}
+
+input[type="button"], input[type="reset"] {
+	margin-top: 1%;
+	background-color: orange;
+	font-size: 130%;
+	border: none;
+	padding: 0.2%;
+	border-radius: 5px;
+}
+
+input[type="button"]:hover, input[type="reset"]:hover {
+	background-color: #ffc600;
+	transition: 0.3s;
+}
