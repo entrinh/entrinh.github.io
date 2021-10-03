@@ -4,8 +4,7 @@ table.hw-table {
 }
 
 td.hw-col {
-	padding: 5%;
-	min-width: 25%;
+	padding: 3rem;
 	text-align: center;
 }
 
@@ -13,7 +12,7 @@ a.hw-button {
     background-color: orange; /* color of button */
 	display: inline-block;
 	font-size: 275%;
-	padding: 10%;
+	padding: 2rem;
 	text-decoration: none; /* removes underline from link */
 	color: black; /* color of text */
 	font-family: Arial;
@@ -23,8 +22,4 @@ a.hw-button {
 
 a.hw-button:hover {
 	background-color: #ffc600;
-}
-
-a.hw-button-last {
-	padding: 5%;
 }
