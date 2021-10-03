@@ -1,0 +1,15 @@
+p {
+	text-align: center;
+	font-size: 2rem;
+	cursor: grab;
+	color: orange;
+}
+
+p:hover {
+	color: #ffc600;
+}
+
+main > h2 {
+	margin-left: 0%;
+	text-align: center;
+}
