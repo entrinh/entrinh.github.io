@@ -1,0 +1,29 @@
+.inst {
+	font-size: 1.5rem;
+	margin-bottom: 0%;
+}
+
+label, input[type="text"] {
+	font-size: 1.25rem;
+	vertical-align: middle;
+}
+
+.err {
+	color: red;
+	font-size: 1.25rem;
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+}
+
+#txt-err, #pull-err {
+	display: inline-block;
+	margin-left: 1rem;
+}
+
+select {
+	font-size: 1rem;
+}
+
+form {
+	margin-left: 37%;
+}

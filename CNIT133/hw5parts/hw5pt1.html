@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Part 1: Form Validation</title>
+		<meta name="description" content="CNIT 133 Homework 5 Part 1: Form Validation">
+		<meta name="author" content="Eric Trinh">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../global.css">
+		<link rel="stylesheet" href="hw5pt1.css">
+		<script src="hw5pt1.js" async></script>
+	</head>
+	<body>
+	<h1>Part 1: Form Validation</h1>
+	<main>
+		<form name="valid_form" onsubmit="return validate(this)">
+			<label for="txt">Please enter your name:</label>
+			<input id="txt" name="txt" type="text"><div id="txt-err" class="err"></div>
+			
+			<p class="inst">Please enter your gender:</p>
+			<div id="rad-err" class="err"></div>
+			<input id="rad1" name="rad" type="radio">
+			<label for="rad1">Male</label>
+			<br>
+			<input id="rad2" name="rad" type="radio">
+			<label for="rad2">Female</label>
+			<br>
+			<input id="rad3" name="rad" type="radio">
+			<label for="rad3">Non-binary</label>
+			
+			<p class="inst">Which of these apply to you? (Pick at least one):</p>
+			<div id="check-err" class="err"></div>
+			<input id="check1" name="check" type="checkbox">
+			<label for="check1">Student</label>
+			<input id="check2" name="check" type="checkbox">
+			<label for="check2">Teaching Assistant (TA)</label>
+			<input id="check3" name="check" type="checkbox">
+			<label for="check3">Teacher</label>
+			
+			<p class="inst">How many online classes have you taken at CCSF?</p>
+			<select name="sel">
+				<option value="0" selected>Select an Option</option>
+				<option value="1">1-2</option>
+				<option value="2">3-4</option>
+				<option value="3">5+</option>
+			</select><div id="pull-err" class="err"></div>
+			<br>
+			<input type="submit">
+		</form>
+	</main>
+	<br>
+	<footer>
+		<h2>Site navigation links:</h2>
+		<dl>
+			<dt><a href="../hw5.html">Home</a></dt>
+			<dd>Return to homework 5 home page</dd>
+			<dt><a href="hw5pt2.html">Part 2</a></dt>
+			<dd>Pull-downs</dd>
+			<dt><a href="hw5pt3.html">Part 3</a></dt>
+			<dd>State Census</dd>
+			
+		</dl>
+	</footer>
+	</body>
+</html>

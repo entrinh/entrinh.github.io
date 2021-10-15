@@ -1,0 +1,25 @@
+#txt1{
+	margin-left: 37%;
+}
+
+#txt2 {
+	margin-left: 6%;
+}
+
+select {
+	font-size: 1rem;
+}
+
+p {
+	font-size: 1.5rem;
+	color: orange;
+}
+
+select[name="select1"] {
+	margin-left: 38%;
+}
+
+select[name="select2"] {
+	margin-left: 6%;
+}
+

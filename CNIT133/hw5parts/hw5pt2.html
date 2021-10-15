@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Part 2: Pull-downs</title>
+		<meta name="description" content="CNIT 133 Homework 5 Part 2: Pull-downs">
+		<meta name="author" content="Eric Trinh">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../global.css">
+		<link rel="stylesheet" href="hw5pt2.css">
+		<script src="hw5pt2.js" async></script>
+	</head>
+	<body>
+	<h1>Part 2: Pull-downs</h1>
+	<main>
+		<form>
+			<p><span id="txt1">Pull-down with onchange</span><span id="txt2">Pull-down with button</span></p>
+			<select name="select1" onchange="changeURL(this)">
+				<option value="#" selected>Select a Website to Visit</option>
+				<option value="https://old.reddit.com/">Reddit</option>
+				<option value="https://twitter.com/">Twitter</option>
+				<option value="https://www.ccsf.edu/">CCSF</option>
+			</select>
+			<select name="select2">
+				<option value="#" selected>Select a Website to Visit</option>
+				<option value="https://www.w3schools.com/">W3Schools</option>
+				<option value="https://validator.w3.org/">W3C Markup Validator</option>
+				<option value="https://github.com/">GitHub</option>
+			</select>
+			<input type="button" onclick="changeURL(this.form.select2)" value="Navigate">
+		</form>
+	</main>
+	<br>
+	<footer>
+		<h2>Site navigation links:</h2>
+		<dl>
+			<dt><a href="../hw5.html">Home</a></dt>
+			<dd>Return to homework 5 home page</dd>
+			<dt><a href="hw5pt1.html">Part 1</a></dt>
+			<dd>Form Validation</dd>
+			<dt><a href="hw5pt3.html">Part 3</a></dt>
+			<dd>State Census</dd>
+		</dl>
+	</footer>
+	</body>
+</html>

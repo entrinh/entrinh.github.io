@@ -1,0 +1,25 @@
+main > h2 {
+	margin-left: 0%;
+}
+
+main {
+	text-align: center;
+}
+
+input[type="text"] {
+	font-size: 1.3rem;
+}
+
+#info {
+	font-size: 1.25rem;
+}
+
+.result {
+	color: orange;
+}
+
+#err {
+	color: red;
+	display: block;
+	margin-top: 1%;
+}
