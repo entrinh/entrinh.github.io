@@ -1,0 +1,17 @@
+main {
+	text-align: center;
+}
+
+input[type="text"] {
+	font-size: 1.25rem;
+}
+
+p, label {
+	font-size: 1.5rem;
+	margin-bottom: 0.25rem;
+}
+
+#p1, #p2, #p3 {
+	text-align: center;
+	width: 5rem;
+}

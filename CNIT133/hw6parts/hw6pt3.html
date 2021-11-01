@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Part 3: State Census</title>
+		<meta name="description" content="CNIT 133 Homework 6 Part 3: Telephone Data Extraction">
+		<meta name="author" content="Eric Trinh">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../global.css">
+		<link rel="stylesheet" href="hw6pt3.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+		<script src="hw6pt3.js" async></script>
+	</head>
+	<body>
+	<h1>Part 3: Telephone Data Extraction</h1>
+	<main>
+		<form name="phone-num">
+			<label for="phone">Telephone number:</label>
+			<input id="phone" name="phone" type="text" autofocus>
+			<input type="button" value="Extract" onclick="extract()">
+			<div id="err"></div>
+		</form>
+		<p>Extracted telephone parts:</p>
+		<input id="p1" type="text" readonly>
+		<input id="p2" type="text" readonly>
+		<input id="p3" type="text" readonly>
+	</main>
+	<br>
+	<footer>
+		<h2>Site navigation links:</h2>
+		<dl>
+			<dt><a href="../hw6.html">Home</a></dt>
+			<dd>Return to homework 6 home page</dd>
+			<dt><a href="hw6pt1.html">Part 1</a></dt>
+			<dd>Using the Math Object</dd>
+			<dt><a href="hw6pt2.html">Part 2</a></dt>
+			<dd>String Searching</dd>
+		</dl>
+	</footer>
+	</body>
+</html>
