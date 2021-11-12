@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Part 1: Page Layout Selection</title>
+		<meta name="description" content="CNIT 133 Homework 7 Part 1: Page Layout Selection">
+		<meta name="author" content="Eric Trinh">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../global.css">
+		<link rel="stylesheet" href="hw7pt1.css">
+		<script src="hw7pt1.js" async></script>
+	</head>
+	<body class="theme">
+	<h1 class="text">Part 1: Page Layout Selection</h1>
+	<main>
+		<form name="pg-layout">
+			<p class="text">Select Page Theme:</p>
+			<input type="radio" name="theme" id="light" value="light" onclick="changeTheme(this)">
+			<label class="text" for="light">Light</label>
+			<input type="radio" name="theme" id="dark" value="dark" onclick="changeTheme(this)" checked>
+			<label class="text" for="dark">Dark</label>
+			<p class="text">Text Garnishes:</p>
+			<input type="checkbox" id="strong" name="txt" onclick="changeText()">
+			<label class="text" for="strong">Bold</label>
+			<input type="checkbox" id="em" name="txt" onclick="changeText()">
+			<label class="text" for="em">Italics</label>
+			<p class="text">Text Zoom:</p>
+			<select name="zoom" id="zoom" onchange="changeZoom(this)">
+				<option value="0.5">0.5x</option>
+				<option value="0.75">0.75x</option>
+				<option value="1" selected>1x</option>
+				<option value="1.25">1.25x</option>
+				<option value="1.5">1.5x</option>
+			</select>
+		</form>
+	</main>
+	<br>
+	<footer>
+		<h2 class="text">Site navigation links:</h2>
+		<dl class="text">
+			<dt><a href="../hw7.html">Home</a></dt>
+			<dd>Return to homework 7 home page</dd>
+			<dt><a href="hw7pt2.html">Part 2</a></dt>
+			<dd>Past Homework Navigation Bar</dd>
+		</dl>
+	</footer>
+	</body>
+</html>

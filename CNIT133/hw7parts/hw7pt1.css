@@ -1,0 +1,36 @@
+.dark {
+	background-color: #1c1b22;
+	color: white;
+}
+
+.light {
+	background-color: white;
+	color: black;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italics {
+	font-style: italic;
+}
+
+main {
+	text-align: center;
+}
+
+p {
+	font-size: 1.5rem;
+	color: orange;
+}
+
+label {
+	vertical-align: middle;
+	font-size: 1.5rem;
+	display: inline-block;
+}
+
+select {
+	font-size: 1.25rem;
+}

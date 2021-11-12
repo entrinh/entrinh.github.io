@@ -1,0 +1,44 @@
+li a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 1.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	text-shadow: 1px 1px black;
+}
+
+ul {
+	list-style: none;
+}
+
+main > ul {
+	text-align: center;
+	display: inline-block;
+}
+
+main {
+	text-align: center;
+}
+
+/* causes list to become straight line left to right rather than from top to bottom */
+.dropdown li {
+	float: left;
+}
+
+/* makes sublist retain normal top to bottom structure rather than its parent's left to right */
+.submenu li {
+	float: none;
+}
+
+li {
+	background: orange;
+	border: 1px solid #1c1b22;
+	text-align: center;
+	display: block;
+}
+
+/* removes left tab from submenu content */
+.submenu {
+	padding: 0;
+}
