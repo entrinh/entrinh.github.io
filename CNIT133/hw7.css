@@ -1,0 +1,13 @@
+dt {
+	cursor: pointer;
+	color: orange;
+	font-weight: bold;
+}
+
+dt:hover {
+	color: #ffc600;
+}
+
+a {
+	color: white;
+}
