@@ -1,4 +1,4 @@
-// regular JavaScript version
+// regular JavaScript version for getHint
 /*function showNames(name) {
 	if(name.length == 0) {
 		document.getElementById("names").innerHTML = "";
@@ -14,7 +14,7 @@
 	}
 }*/
 
-// jQuery version
+// jQuery version for getHint
 $(document).ready(function() {
 	$("#name").keyup(function() {
 		if($("#name").val().length === 0) {
@@ -23,6 +23,11 @@ $(document).ready(function() {
 			$.get("getNames.php", {request: $("#name").val()}, function(response) {
 				$("#names").html(response);
 			});
+		}
+	});
+	$("input[type='radio']").click(function() {
+		if($("#sub").val()) {
+			accessRedditApi($("#sub").val(), $("input[type='radio']:checked").val());
 		}
 	});
 });
