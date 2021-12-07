@@ -3,14 +3,48 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<meta name="description" content="CNIT 133 Homework 8">
+		<title>CNIT 133 Homework 8: Ajax Applications</title>
 		<meta name="author" content="Eric Trinh">
+		<meta name="description" content="CNIT 133 Homework 8: Ajax Applications">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>CNIT 133 Homework 8</title>
+		<link rel="stylesheet" href="global.css">
+		<link rel="stylesheet" href="hw8.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="hw8.js" async></script>
 	</head>
 	<body>
 		<header>
-			<h1>Coming Soon!</h1>
+			<h1>CNIT 133 Homework 8 - Ajax Applications</h1>
 		</header>
+		<main>
+			<section>
+				<h2>W3Schools showHint recreation</h2>
+				<div id="getHint">
+					<div id="getHintContents">
+						<label for="name">First name:</label>
+						<input type="text" id="name" value="">
+						<p>Suggestions: <span id="names"></span></p>
+					</div>
+				</div>
+			</section>
+			<section>
+				<h2>Reddit API: Display posts from your desired subreddit (Press the Enter key to run)</h2>
+				<div id="reddit">
+					<label for="sub">Enter subreddit name:</label>
+					<input type="text" id="sub" onkeypress="getInput(this, event)">
+					<input type="radio" name="listings" id="hot" value="hot" checked>
+					<label for="hot">Hot</label>
+					<input type="radio" name="listings" id="new" value="new">
+					<label for="new">New</label>
+					<input type="radio" name="listings" id="rising" value="rising">
+					<label for="rising">Rising</label>
+					<input type="radio" name="listings" id="controversial" value="controversial">
+					<label for="controversial">Controversial</label>
+					<input type="radio" name="listings" id="top" value="top">
+					<label for="top">Top</label>
+				</div>
+				<div id="posts"></div>
+			</section>
+		</main>
 	</body>
 </html>
