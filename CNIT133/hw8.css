@@ -16,7 +16,7 @@ label, input[type="text"], p {
 	vertical-align: middle;
 }
 
-#names {
+#names, .header {
 	color: orange;
 }
 

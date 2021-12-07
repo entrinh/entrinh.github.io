@@ -38,7 +38,7 @@ function getInput(input, event) {
 }
 
 function accessRedditApi(sub, listing) {
-	var url = "https://old.reddit.com/r/" + sub + "/" + listing + ".json";
+	var url = "https://old.reddit.com/r/" + sub + "/" + listing + ".json"; // turn off tracking protection if it doesn't work initially
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.open("GET", url, true); // asynchronous request
 	xmlhttp.send();
